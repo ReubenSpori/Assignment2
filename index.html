@@ -1,0 +1,300 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+	<meta http-equiv="Content-Type" />
+
+	<title>Planted Future</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+
+	<nav>
+
+		<img class="logo" src="img/logo.PNG">
+
+		<div class="g-16 one">
+
+			<a href="indexWork.html">Progress</a>	
+
+		</div>
+			
+		<div class="g-16">
+
+			<a href="#logging">Logging</a>	
+				
+		</div>
+
+		<div class="g-16">
+
+			<a href="#deforestation">Deforestation</a>	
+				
+		</div>
+
+		<div class="g-16">
+
+			<a href="#wildfires">Wildfires</a>	
+
+		</div>
+
+
+	</nav>
+
+	<div class="slideshow" >
+
+		<img class="fullimg Slides" src="img/forest1.JPG" style="max-width: 100%; max-height: 100%">
+		<img class="fullimg Slides" src="img/forest3.JPG" style="max-width: 100%; max-height: 100%">
+		<img class="fullimg Slides" src="img/forest4.JPG" style="max-width: 100%; max-height: 100%">
+
+	</div>
+
+	<script>
+
+		var slideIndex = 0;
+		carousel();
+
+		function carousel() {
+		    var i;
+		    var x = document.getElementsByClassName("Slides");
+		    for (i = 0; i < x.length; i++) {
+		      x[i].style.display = "none"; 
+		    }
+		    slideIndex++;
+		    if (slideIndex > x.length) {slideIndex = 1} 
+		    x[slideIndex-1].style.display = "block"; 
+		    setTimeout(carousel, 5000);
+		}
+
+	</script>
+
+	<section>
+		<header >
+
+			<h2>
+				Threats
+			</h2>
+
+		</header>
+
+		<div class="g-row">
+
+			<div class="g-30Left centre">
+
+				<img class="icon" src="img/log.PNG" style=" max-width:60%; ">
+
+				<p>
+				Logging
+				</p>
+
+			</div>
+
+			<div class="g-30Left centre">
+
+				<img class="icon" src="img/deforestt.PNG" style=" max-width:60%; ">
+
+				<p>
+				Deforestation
+				</p>
+
+			</div>
+
+			<div class="g-30Left centre">
+
+				<img class="icon" src="img/fire.PNG" style=" max-width:60%; ">
+
+				<p>
+				Wildfires
+				</p>
+
+			</div>
+
+		</div>
+
+	</section>
+
+<style>
+
+	.parallax{
+		max-width: 100%;
+		max-height: 100%;
+		background-image:url("img/deforest21.JPG"); 
+
+		
+		min-height:650px;
+		background-attachment: fixed;
+	   	position: relative;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    overflow: hidden;
+		}
+
+</style>
+
+	<div class="parallax"></div>
+
+	<div style="height:0%;">
+
+
+		<section id="logging">
+			<header >
+
+				<h2>
+					Logging
+				</h2>
+
+		</header>
+
+			<div class="g-row centre">
+
+				<div class="g-50">
+
+					Illegal logging is the leading cause of forest degradation worldwide and contributes to global warming. In 2013, for example, it resulted in an estimated 190 million tons of carbon dioxide released into the atmosphere. The practice also threatens critically endangered species, including orangutans and Siberian tigers, as well as local people, with impacts ranging from loss of livelihoods and land to endangerment to their lives.
+
+				</div>
+
+				<div class="g-50">
+
+					Logging operations, which provide the world’s wood and paper products, also cut countless trees each year. Loggers, some of them acting illegally, also build roads to access more and more remote forests—which leads to further deforestation. Forests are also cut as a result of growing urban sprawl as land is developed for dwellings.	
+
+				</div>
+
+			</div>
+
+		</section>
+
+	</div>
+
+
+<style>
+
+	.parallax2{
+		max-width: 100%;
+		max-height: 100%;
+		background-image:url("img/deforest5.JPG");
+		min-height:650px;
+		background-attachment: fixed;
+	    position: relative;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    overflow: hidden;
+	    background-attachment: fixed;
+		}
+
+</style>
+
+	<div class="parallax2"></div>
+
+	<div style="height:20%;">
+
+		<section  id="deforestation">
+
+			<header>
+
+				<h2>
+					DeForestation
+				</h2>
+
+			</header>
+
+				<div class="g-row">
+
+					<div class="centre">
+
+						Deforestation is clearing Earth's forests on a massive scale, often resulting in damage to the quality of the land. Forests still cover about 30 percent of the world’s land area, but swaths half the size of England are lost each year.
+
+						The world’s rain forests could completely vanish in a hundred years at the current rate of deforestation.
+
+						The biggest driver of deforestation is agriculture. Farmers cut forests to provide more room for planting crops or grazing livestock. Often, small farmers will clear a few acres by cutting down trees and burning them in a process known as slash and burn agriculture.
+
+						Deforestation also drives climate change. Forest soils are moist, but without protection from sun-blocking tree cover, they quickly dry out. Trees also help perpetuate the water cycle by returning water vapor to the atmosphere. Without trees to fill these roles, many former forest lands can quickly become barren deserts.
+
+						Removing trees deprives the forest of portions of its canopy, which blocks the sun’s rays during the day, and holds in heat at night. This disruption leads to more extreme temperature swings that can be harmful to plants and animals.
+
+					</div>
+
+			</div>
+
+		</section>
+
+	</div>
+
+<style>
+
+	.parallax3{
+		max-width: 100%;
+		max-height: 100%;
+		background-image:url("img/forestfire.JPG");
+		min-height:650px;
+		background-attachment: fixed;
+	    position: relative;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    overflow: hidden;
+	    background-attachment: fixed;
+		}
+
+</style>
+
+	<div class="parallax3"></div>
+
+	<div style="height:0%;">
+
+	
+		<section id="wildfires">
+
+			<header >
+
+				<h2>
+					Wildfires
+				</h2>
+
+			</header>
+
+				<div class="g-row">
+
+					<div class=" centre">
+
+
+						Wildfires are a large, destructive fire that spreads quickly over woodland or brush.
+
+						They directly impact on upland ecosystem services through damage caused to the vegetation, peat and soils, which results in loss of valuable habitat and associated wildlife alongside carbon release. Exposed soil and peat is at increased risk to wind and water erosion, with water run-off from uplands potentially resulting in downstream flooding, sedimentation of water courses and discolouration of drinking water.
+
+					</div>
+
+			</div>
+
+		</section>
+
+	</div>
+
+	
+
+	<footer> 
+
+		<img class="footlogo" src="img/logo.PNG">
+		
+		<div class="finfo">
+			<div class="g-25">Privacy Policy</div>
+			<div class="g-25">Contact Us</div>
+			<div class="g-25">Carrers</div>
+			<div class="g-25">Help</div>
+		</div>
+
+		<p>
+
+		<div class="contact">
+		
+			202-555-0136, 2529  Whaley Lane, Sheboygan Falls, Wisconsin 53085
+
+		</div>
+
+	</footer>
+	
+</body>
+
+</html>
