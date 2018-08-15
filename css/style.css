@@ -19,7 +19,6 @@ section{
 	padding:50px;
 	padding-top:20px;
 	box-shadow: 0px 16px 10px -13px rgba(0,0,0,0.19);
-
 }
 
 header{
@@ -36,18 +35,15 @@ nav{
 	top:0;
 	overflow:hidden;
 	float:right;
-	
 }
 
 nav a, nav h3{
-	
 	margin: 0px;
 	line-height: 35px;
 	margin-left: 0em;
 	margin-right: 1em;
 	text-decoration: none;
 	color: black;
-
 }
 
 nav a:hover{
@@ -70,7 +66,6 @@ footer{
 	bottom:0;
 	overflow:hidden;
 	height:8em;
-
 }
 
 strong{
@@ -82,7 +77,6 @@ strong{
 .finfo{
 	width:100%;
 	margin-left: 20em;
-
 }
 
 .contact{
@@ -95,8 +89,8 @@ strong{
 	left: 0px;
 	float:left;
 	position: relative;
-    margin: 0;
-    max-width: 250px;
+    	margin: 0;
+    	max-width: 250px;
 }
 
 .footlogo {
@@ -125,7 +119,6 @@ strong{
 	padding:10px;
 	background-color: #33A34A;
 	color: #ffffff;
-	
 	width:30%;
 	margin-left: 35%;
 	margin-right: 35%;
@@ -133,26 +126,20 @@ strong{
 }
 
 .adopt:hover{
-	text-decoration: underline; /* Hover styles to let people know they can click it */
+	text-decoration: underline;
 }
 
 /*
 .parallax{
 
 	background-image:url("img/forest4.JPG");
-
-	
 	min-height:500px;
 	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
 }
-
 */
-
 
 .g-row{
 	width: 100%;
@@ -178,8 +165,8 @@ strong{
 	margin-top: 35px;
 	width: 17.5%;
 	float:left;
-
 }
+
 .one{
 	margin-left: 3em;
 }
